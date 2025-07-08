@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Custom login</h2>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">
+            login
+        </button>
+    </form>
+    <p>
+        Dont have an account?
+        <a hredf="/custom_register/">Regisetr here</a>
+    </p>
+    
+</body>
+</html>
